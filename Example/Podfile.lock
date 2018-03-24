@@ -1,0 +1,23 @@
+PODS:
+  - SPrelude (0.1.0)
+  - SPrelude-UIKit (0.1.0):
+    - SPrelude (~> 0.1.0)
+
+DEPENDENCIES:
+  - SPrelude-UIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SPrelude
+
+EXTERNAL SOURCES:
+  SPrelude-UIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPrelude: 6d238a3cbeeff7d744ee75b7a830c67a6fbf1f64
+  SPrelude-UIKit: 58049b2fe33011d2cda8f6830940adb6fc075d0e
+
+PODFILE CHECKSUM: 258329f56d353083cb04f0278e466259af6c20f9
+
+COCOAPODS: 1.5.0.beta.1

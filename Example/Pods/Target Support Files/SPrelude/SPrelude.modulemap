@@ -1,0 +1,6 @@
+framework module SPrelude {
+  umbrella header "SPrelude-umbrella.h"
+
+  export *
+  module * { export * }
+}

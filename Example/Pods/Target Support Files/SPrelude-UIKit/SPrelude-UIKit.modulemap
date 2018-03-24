@@ -1,0 +1,6 @@
+framework module SPrelude_UIKit {
+  umbrella header "SPrelude-UIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

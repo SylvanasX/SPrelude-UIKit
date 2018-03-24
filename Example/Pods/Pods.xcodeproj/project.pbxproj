@@ -1,0 +1,1192 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FB7022FED179F756E7FFF3FDACCE11 /* UITabBarItemLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3650E60F391AF6BF426DA894E9C2E260 /* UITabBarItemLenses.swift */; };
+		08E875C03CEBE5FA3BF719E31D0BC043 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC525541C9F06F4BF2B11A68F20C950 /* Dictionary.swift */; };
+		11C514EB0ADD823B02CB9BF87E185B48 /* SPrelude-UIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAB3716CA9FA8BDE5F488E1572054E8 /* SPrelude-UIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		121E0EFA458219F00B4ED764BAB0F201 /* UITraitEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B2E5D2BA0916725B13718B4CD99196 /* UITraitEnvironment.swift */; };
+		129668030C915D51A1B61B1CB2138ECD /* Unpack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FFD844EFED7BFC1F0E3384725C6C2 /* Unpack.swift */; };
+		130F66739552EC752FA1103A81E0EDA8 /* UIWebViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534116E42AAA1E025C5640FD440ADBB /* UIWebViewLenses.swift */; };
+		1EDBE6363C8D3B422014FFCFEB1BB2C1 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BBD486F0D6B4EBD81703FE5C331F1 /* Operators.swift */; };
+		1F34DCE6FD4C81F4282CB8AB1DA3760E /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 2FA184A01AB89F57222543EC2F74809A /* Info.plist */; };
+		22A3524C7D9E7D7A3DF246E61BE058F5 /* Lens.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14377F0A83FB2B7F0B27FEF895686A3 /* Lens.swift */; };
+		244190014486AA2144EEA6B980844B1D /* CGRectLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F78639A2404ECD76CFEE7B53C822AF /* CGRectLenses.swift */; };
+		24F0BF734DDD0DA25555415FDA60E3C3 /* LensHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACA88F06C4CC488CF9A08823C83BFEA /* LensHolder.swift */; };
+		25859000C9B2A613B0C4917CA58BFEE6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82387ECA11079433E13A1224B106715 /* String.swift */; };
+		268ED43BB84EA3B0C43A0C37BDEEF5C4 /* Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0305D8CFAD684ADF790DD8C45EB4C0A /* Monoid.swift */; };
+		283F130658BA826686E931FFA2B981B8 /* UITextInputTraitsLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9BD1E7502CA9997660B262A5DF6EA4 /* UITextInputTraitsLenses.swift */; };
+		2CC04C030976BB4D834D4812B70A6AAC /* Pods-SPrelude-UIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D5000BABD07F915F21BFB6403CD93 /* Pods-SPrelude-UIKit_Example-dummy.m */; };
+		307FC1FB4356F02242681BACFF05C039 /* UINavigationControllerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDDF3F763C14FB814A2717E30FB0285 /* UINavigationControllerLenses.swift */; };
+		33DBB4EAA4C702A857DBE4B8AC5DF2C0 /* UIStackViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396CB16EE93CA993B232B73868921D0 /* UIStackViewLenses.swift */; };
+		36739B567821C70D80222E721926D122 /* UIActivityIndicatorViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E94200EB96EC6E8EB1B8347648258 /* UIActivityIndicatorViewLenses.swift */; };
+		37FAB6D7F941366AD7EF66EAA236F0D1 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310EDFBF8BD13C6E3C4C230428BB213 /* Bool.swift */; };
+		3B22D4D93B33785D59098E0F962A8E9F /* UITabBarLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5049B9A729378E7EA50FE0167645CF9 /* UITabBarLenses.swift */; };
+		3DFF3D71C117B568190AD99E41FBF585 /* SPrelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E676C55599031C86151565736B1BC0F4 /* SPrelude.framework */; };
+		41749B5B310A1B801CC917FBEB30B453 /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7759B04323674B3B2BACDEE4C1C3CFF /* Either.swift */; };
+		43A95967A48B090E419B762ADE0E32C9 /* UITextFieldLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1BB7D88FFEDBF87CDD8EAAE3458D4 /* UITextFieldLenses.swift */; };
+		4E88F78B8E895468E489588A0DC97FEB /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD428D031059E489E8C2BA3E58140463 /* Comparable.swift */; };
+		555D6EC751390099BABD0FD54CA4D394 /* SomeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C515500435F89BD9EE15AE5403C90 /* SomeError.swift */; };
+		5AEAEB0144DE9979F96F2D79AB18DB9C /* UITableViewControllerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD3726FA10011485D5E1FDF8C9B0BA /* UITableViewControllerLenses.swift */; };
+		63A098C53EA9E8B0F2B879435C4ABF8E /* UIControlLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA7256A518B7615F67FC167BFEF7B2 /* UIControlLenses.swift */; };
+		65EF8CEE3F7022644AF8A936A72C337A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73395F133EDBD5BFDF3D8E8F361514E /* Foundation.framework */; };
+		68F33D043653F3162C52F7388F1DB408 /* UITableViewCellLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DACAD938D29A9EA1A3B65AC5C75174 /* UITableViewCellLenses.swift */; };
+		694280C06D7C697470EA31D7A187E21A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887F8814ED1BAD9C0AF95CD4D8BD282 /* UIButton.swift */; };
+		69920683FF6E01C7AC483F21BD14A21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73395F133EDBD5BFDF3D8E8F361514E /* Foundation.framework */; };
+		6AE88D9C49C2BE0A059E983791B850CB /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F2C63714B59AF3EB39E64D84B3D166 /* Semigroup.swift */; };
+		6C0F11E903F532F13E8F2EBF9ED2EF45 /* CALayerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA7245F43B938DCEA8925E4DE2CF918 /* CALayerLenses.swift */; };
+		6DBABD8491AB60BC3FB610E552BEE6C6 /* Pods-SPrelude-UIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7A1129DB14AD658B9C99096393E5F6 /* Pods-SPrelude-UIKit_Tests-dummy.m */; };
+		6E3059F06C32DA6B58205A1589B7001E /* NonEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7238885769A9FE1461A2C79A15C9E /* NonEmpty.swift */; };
+		6E40D58F5FB228D14A1BA0506F695563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73395F133EDBD5BFDF3D8E8F361514E /* Foundation.framework */; };
+		6EFD5C86BD0EDE80F64A5AC6EB1899A4 /* UINavigationBarLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED026EA41BF810886D8274C30F23C7 /* UINavigationBarLenses.swift */; };
+		70B34D0C19961AC20D2DA038B580D94B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967716F85591EAAF98EFD3A67A393AAF /* Array.swift */; };
+		70DD3AAE659F3214A8451316CE7B3DE2 /* Pods-SPrelude-UIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475BC49CF3E61F36BF70C6A65960A9F9 /* Pods-SPrelude-UIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78319C75D0BE53989913BC985B125E7C /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B21B9F6BD616C0CE8BAEAF5505ED1 /* Unit.swift */; };
+		787FD4473457D5D0269B8D1C0CA9B128 /* UIViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790BFBF3220AA6901B7BFC71AF4EEF52 /* UIViewLenses.swift */; };
+		79B876F30C56AD89D9BDE6DC3E5ECEE0 /* UIProgressViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBDB1519EBFE9C34128D9E91F7622B /* UIProgressViewLenses.swift */; };
+		7C7B127EC980A28471D40F593ECABDF4 /* LensHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2F2C03C072407147BF96A33D9B289D /* LensHolder.swift */; };
+		7D74F459536F4865CF4C096C0185EC59 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC39DF1EEED1772D62EF4C80CCF616B /* Empty.swift */; };
+		8051943AB6766C91B0ECD95F8E0ACBAA /* WKWebViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7895FA571A45E7B357E57F274631C7 /* WKWebViewLenses.swift */; };
+		810B71ADBCD68BE0C603DCD7ADD13C6C /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5887FCE9BD5D5D35D0270C0F1B4BBA /* Set.swift */; };
+		8389F57D17DA83A6CC3C511CB7D5BB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73395F133EDBD5BFDF3D8E8F361514E /* Foundation.framework */; };
+		841EFB4CE7363BFB33AF6C4C5531BB2F /* UILabelLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E8B44929B65B9033BCE094E0CDB335 /* UILabelLenses.swift */; };
+		884F2DD549949A5C36D5100CA1915C22 /* Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC26A5F06F83114FAD6B623B33173C39 /* Comparator.swift */; };
+		8FB6F2B0C4FFADB001F1233D9DE493AA /* UIBarItemLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF08FCC2758346B5E1314D822AAE0DB /* UIBarItemLenses.swift */; };
+		904843FD1C34B57F9C47BD571FABEC5F /* NSTextContainerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7979875C59E6640E0C873260D6B54C5E /* NSTextContainerLenses.swift */; };
+		90A4CA0B43AD94C3F4BC34C8DCAD3093 /* SPrelude-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E16936723ED7B51BEF31275EE025726B /* SPrelude-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F47489A55C1E321983593472DC8800 /* UITextViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A8646F68B01624D8C8FF11B7B32E78 /* UITextViewLenses.swift */; };
+		9238B5466A09C173F4E979437E61DBE3 /* UITableViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE2385E73551B40B05B0A1D99781EF /* UITableViewLenses.swift */; };
+		9273470B403219F4D2226F51674B22AB /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF69500FB0D3ECFCF5C644F45CCC0DB /* UIImage.swift */; };
+		98B4C72B7BDCE18DD7C138DFF864E2B1 /* NSMutableParagraphStyleLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BDA5227314305D901ADE35B2D4E04D /* NSMutableParagraphStyleLenses.swift */; };
+		9EFCF12170491EEE76D8C3289D57C159 /* UIAccessibilityLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058B612A1D22A8E3585AE4F4CF841F32 /* UIAccessibilityLenses.swift */; };
+		A1F9F46E376305E488DDA214313EDE47 /* UINavigationItemLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BF79174574F2A0C330AC922FA193B /* UINavigationItemLenses.swift */; };
+		A26655B06AADAA038BA6CD99BC3745A5 /* CGSizeLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5DEA86AB208394E0E0C8A548BFE0E /* CGSizeLenses.swift */; };
+		A2D9DC0529ED78468AFB2CFC6D221F72 /* UIImageViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0BEF29A7B038EEAF59CC719C945B7C /* UIImageViewLenses.swift */; };
+		B34E0C69AD49C520871A994663820FFD /* UIScrollViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A144961552B949E11F71DD445A6D25 /* UIScrollViewLenses.swift */; };
+		B662A53D85D6DAB4BD64ACFBEBCFF760 /* UIButtonLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DAF17BBA4AA3944D1AA391AADE451A /* UIButtonLenses.swift */; };
+		BEDEF1CE0613BF6A8FD651056D81BC93 /* UITraitCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDAFF6213B8CEC1C317C4FAB3BA4836 /* UITraitCollection.swift */; };
+		C387D36F5607752E3996F1E949E3CD77 /* SPrelude-UIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E194B8BF3BB043CCF637ECA60AFC635 /* SPrelude-UIKit-dummy.m */; };
+		C63428EA5BABD7A30047AACE3168375C /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3E522B7EBD5F18299A295FA8171FC /* Tuple.swift */; };
+		C8E998ADF9551D51C69F5AF5CC79A591 /* UIBarButtonItemLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A6C4E616125183D8F3882CAD592F5 /* UIBarButtonItemLenses.swift */; };
+		CC52A9D3FDE49528A693EB9A878AD42C /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D4C3E9DAD9069968B3939AD72B799 /* UIEdgeInsets.swift */; };
+		D0562634823CF389AF82398F7AF4B1B9 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5FBC762692F66C7D5AE96942A0E7F9 /* Optional.swift */; };
+		D0DC0970B0BB5DAADDA3D2FE3AEFCB32 /* SPrelude-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 560859C60BAC42976DF28215C551C1B1 /* SPrelude-dummy.m */; };
+		D196991D2CB96F9F390337D304FFC3FB /* VectorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E7D8BD7D5DDFB2EDC7E37C447C63A /* VectorType.swift */; };
+		D7CB1A5D73AFB28BD07FA3238AEE4BE8 /* CGPointLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8DEE473109DE7F5A8B32541CEAC20 /* CGPointLenses.swift */; };
+		DC6D9DE5683BA9521E1D4CEA26E44BCD /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6DB90ABAEA162AF589A651E1A1257 /* Function.swift */; };
+		DD23398951A5F581FCD7EC4E2ACE8139 /* UIEdgeInsetsLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484620AC4B544F6C5FCCACE38E5383D8 /* UIEdgeInsetsLenses.swift */; };
+		DDCD29A59CE0E481C2FA72FDF2F215A9 /* UIViewControllerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D376EB2AB910575D848DE9C37067563 /* UIViewControllerLenses.swift */; };
+		E34EDD9ED3C882CA26C6E774DCB5214C /* Pods-SPrelude-UIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFEBDA94AE7A01F4A9A5CB4D9E2EFF9 /* Pods-SPrelude-UIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D32B2F216F06619A39A27BF526ADD6 /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52F0D1F54AB71840AED514180E20D7 /* Ordering.swift */; };
+		E56CEA6D66E866C37880C92D2800BD35 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15C0D162DB310CC99521151E3F2B338 /* NSObject.swift */; };
+		F99230A37C25126BA0335B00650E2481 /* NumericType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30CE21EE5C10F8F2D3291B18505806 /* NumericType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DFADA534090AE29F637906F1A9ABDC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C29085221C0E4D6E1C6877FD1442B5;
+			remoteInfo = SPrelude;
+		};
+		7CD3B709820839B7B26211C6D4A82933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 989169DEB5A7F53667A9D6841C46544B;
+			remoteInfo = "SPrelude-UIKit";
+		};
+		D8F3C176A2899F54E8EE8BCB72D8ED37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C29085221C0E4D6E1C6877FD1442B5;
+			remoteInfo = SPrelude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AE825913A3FA15039D10DA8ADAA173 /* Pods-SPrelude-UIKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPrelude-UIKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		058B612A1D22A8E3585AE4F4CF841F32 /* UIAccessibilityLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIAccessibilityLenses.swift; sourceTree = "<group>"; };
+		08ADFB17E384633AA3079C0529FD781B /* Pods-SPrelude-UIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPrelude-UIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D3C515500435F89BD9EE15AE5403C90 /* SomeError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SomeError.swift; path = SPrelude/Classes/SomeError.swift; sourceTree = "<group>"; };
+		0E194B8BF3BB043CCF637ECA60AFC635 /* SPrelude-UIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPrelude-UIKit-dummy.m"; sourceTree = "<group>"; };
+		1091BC986F6F0F087B03492422E2C90C /* SPrelude-UIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPrelude-UIKit-prefix.pch"; sourceTree = "<group>"; };
+		17DBC21ED1CD25248413DFEC51AF13E1 /* Pods_SPrelude_UIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPrelude_UIKit_Example.framework; path = "Pods-SPrelude-UIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A144961552B949E11F71DD445A6D25 /* UIScrollViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIScrollViewLenses.swift; sourceTree = "<group>"; };
+		1B8560510509C9470A92EC0489D7A696 /* Pods-SPrelude-UIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPrelude-UIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DB6318D968AF90C4944D1B914F7AAB5 /* Pods-SPrelude-UIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPrelude-UIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FFD3726FA10011485D5E1FDF8C9B0BA /* UITableViewControllerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewControllerLenses.swift; sourceTree = "<group>"; };
+		21E88E48265B8FDAB2372A9D7D35D039 /* Pods-SPrelude-UIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPrelude-UIKit_Example.modulemap"; sourceTree = "<group>"; };
+		2C8A6494344EEA0A91035D79AEAAFCD2 /* SPrelude-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPrelude-prefix.pch"; sourceTree = "<group>"; };
+		2F8E7D8BD7D5DDFB2EDC7E37C447C63A /* VectorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VectorType.swift; path = SPrelude/Classes/VectorType.swift; sourceTree = "<group>"; };
+		2FA184A01AB89F57222543EC2F74809A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SPrelude/Classes/Info.plist; sourceTree = "<group>"; };
+		3273B83E8BBD3743C834934E966AADCE /* SPrelude-UIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "SPrelude-UIKit.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34C7FE8E194576652C5814A42F8215F0 /* Pods-SPrelude-UIKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPrelude-UIKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		3650E60F391AF6BF426DA894E9C2E260 /* UITabBarItemLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarItemLenses.swift; sourceTree = "<group>"; };
+		368BF79174574F2A0C330AC922FA193B /* UINavigationItemLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationItemLenses.swift; sourceTree = "<group>"; };
+		42F2C63714B59AF3EB39E64D84B3D166 /* Semigroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Semigroup.swift; path = SPrelude/Classes/Semigroup.swift; sourceTree = "<group>"; };
+		44BDA5227314305D901ADE35B2D4E04D /* NSMutableParagraphStyleLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSMutableParagraphStyleLenses.swift; sourceTree = "<group>"; };
+		475BC49CF3E61F36BF70C6A65960A9F9 /* Pods-SPrelude-UIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPrelude-UIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		484620AC4B544F6C5FCCACE38E5383D8 /* UIEdgeInsetsLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsLenses.swift; sourceTree = "<group>"; };
+		493FFD844EFED7BFC1F0E3384725C6C2 /* Unpack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unpack.swift; path = SPrelude/Classes/Unpack.swift; sourceTree = "<group>"; };
+		4AAB3716CA9FA8BDE5F488E1572054E8 /* SPrelude-UIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPrelude-UIKit-umbrella.h"; sourceTree = "<group>"; };
+		4B2F2C03C072407147BF96A33D9B289D /* LensHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LensHolder.swift; path = SPrelude/Classes/LensHolder.swift; sourceTree = "<group>"; };
+		4DD1BB7D88FFEDBF87CDD8EAAE3458D4 /* UITextFieldLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldLenses.swift; sourceTree = "<group>"; };
+		5337A4ED6994FC7223FEEB84081F5FDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5534116E42AAA1E025C5640FD440ADBB /* UIWebViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIWebViewLenses.swift; sourceTree = "<group>"; };
+		560859C60BAC42976DF28215C551C1B1 /* SPrelude-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPrelude-dummy.m"; sourceTree = "<group>"; };
+		5B30CE21EE5C10F8F2D3291B18505806 /* NumericType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumericType.swift; path = SPrelude/Classes/NumericType.swift; sourceTree = "<group>"; };
+		5F1D5000BABD07F915F21BFB6403CD93 /* Pods-SPrelude-UIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPrelude-UIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		61FA7256A518B7615F67FC167BFEF7B2 /* UIControlLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIControlLenses.swift; sourceTree = "<group>"; };
+		6396CB16EE93CA993B232B73868921D0 /* UIStackViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStackViewLenses.swift; sourceTree = "<group>"; };
+		64E88A357674F0D2CFB8A7C45A42CB17 /* Pods-SPrelude-UIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPrelude-UIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		68B7238885769A9FE1461A2C79A15C9E /* NonEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NonEmpty.swift; path = SPrelude/Classes/NonEmpty.swift; sourceTree = "<group>"; };
+		6AF69500FB0D3ECFCF5C644F45CCC0DB /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = "SPrelude-UIKit/Classes/UIImage.swift"; sourceTree = "<group>"; };
+		6BDDF3F763C14FB814A2717E30FB0285 /* UINavigationControllerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationControllerLenses.swift; sourceTree = "<group>"; };
+		6CA3B17E0674B518C1C8B868EFADE06D /* SPrelude.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPrelude.modulemap; sourceTree = "<group>"; };
+		6FC8DEE473109DE7F5A8B32541CEAC20 /* CGPointLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGPointLenses.swift; sourceTree = "<group>"; };
+		73080BEEC814DED1396D8E4A822BB23F /* Pods-SPrelude-UIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPrelude-UIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		73E8B44929B65B9033BCE094E0CDB335 /* UILabelLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILabelLenses.swift; sourceTree = "<group>"; };
+		790BFBF3220AA6901B7BFC71AF4EEF52 /* UIViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewLenses.swift; sourceTree = "<group>"; };
+		7955995CA3B31AA0282D00512D9AC385 /* Pods-SPrelude-UIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPrelude-UIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7979875C59E6640E0C873260D6B54C5E /* NSTextContainerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSTextContainerLenses.swift; sourceTree = "<group>"; };
+		7A9BD1E7502CA9997660B262A5DF6EA4 /* UITextInputTraitsLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextInputTraitsLenses.swift; sourceTree = "<group>"; };
+		7B8677F423C67A41F08547DC5BC54898 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7BE06FD780A3D447E635B31E6C118C7B /* Pods-SPrelude-UIKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPrelude-UIKit_Example-resources.sh"; sourceTree = "<group>"; };
+		7FD91E4D4C8027268F3A230915F1FA77 /* Pods-SPrelude-UIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPrelude-UIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8506291C2EE98896CC04655232D1B855 /* SPrelude-UIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SPrelude-UIKit.xcconfig"; sourceTree = "<group>"; };
+		8887F8814ED1BAD9C0AF95CD4D8BD282 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = "SPrelude-UIKit/Classes/UIButton.swift"; sourceTree = "<group>"; };
+		88B2E5D2BA0916725B13718B4CD99196 /* UITraitEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITraitEnvironment.swift; sourceTree = "<group>"; };
+		8ACA88F06C4CC488CF9A08823C83BFEA /* LensHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LensHolder.swift; path = "SPrelude-UIKit/Classes/LensHolder.swift"; sourceTree = "<group>"; };
+		8C0A7CBF1C9315EB34B2E256B118BE14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC39DF1EEED1772D62EF4C80CCF616B /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = SPrelude/Classes/Empty.swift; sourceTree = "<group>"; };
+		8DFE2385E73551B40B05B0A1D99781EF /* UITableViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewLenses.swift; sourceTree = "<group>"; };
+		909BC700707C927D4CBEF13C141922C8 /* SPrelude_UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPrelude_UIKit.framework; path = "SPrelude-UIKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B3A460D9941BC6927DB0DC6F8F3BEE /* SPrelude-UIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SPrelude-UIKit.modulemap"; sourceTree = "<group>"; };
+		9221F1868C0E10141C8349FBF0B3A63C /* Pods-SPrelude-UIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPrelude-UIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		967716F85591EAAF98EFD3A67A393AAF /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = SPrelude/Classes/Array.swift; sourceTree = "<group>"; };
+		97DACAD938D29A9EA1A3B65AC5C75174 /* UITableViewCellLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCellLenses.swift; sourceTree = "<group>"; };
+		988A6C4E616125183D8F3882CAD592F5 /* UIBarButtonItemLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemLenses.swift; sourceTree = "<group>"; };
+		9D376EB2AB910575D848DE9C37067563 /* UIViewControllerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerLenses.swift; sourceTree = "<group>"; };
+		9DA5DEA86AB208394E0E0C8A548BFE0E /* CGSizeLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGSizeLenses.swift; sourceTree = "<group>"; };
+		A15C0D162DB310CC99521151E3F2B338 /* NSObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		A7759B04323674B3B2BACDEE4C1C3CFF /* Either.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Either.swift; path = SPrelude/Classes/Either.swift; sourceTree = "<group>"; };
+		AD428D031059E489E8C2BA3E58140463 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = SPrelude/Classes/Comparable.swift; sourceTree = "<group>"; };
+		AE7C9B34E226CB7539B643B601DDBD06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0BEF29A7B038EEAF59CC719C945B7C /* UIImageViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageViewLenses.swift; sourceTree = "<group>"; };
+		B06692125376C61FA7ADBFB56FEF2C25 /* SPrelude.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPrelude.xcconfig; sourceTree = "<group>"; };
+		C3BBDB1519EBFE9C34128D9E91F7622B /* UIProgressViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIProgressViewLenses.swift; sourceTree = "<group>"; };
+		C82387ECA11079433E13A1224B106715 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = SPrelude/Classes/String.swift; sourceTree = "<group>"; };
+		CA7895FA571A45E7B357E57F274631C7 /* WKWebViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WKWebViewLenses.swift; sourceTree = "<group>"; };
+		CC0D4C3E9DAD9069968B3939AD72B799 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsets.swift; path = "SPrelude-UIKit/Classes/UIEdgeInsets.swift"; sourceTree = "<group>"; };
+		CC26A5F06F83114FAD6B623B33173C39 /* Comparator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparator.swift; path = SPrelude/Classes/Comparator.swift; sourceTree = "<group>"; };
+		CCF08FCC2758346B5E1314D822AAE0DB /* UIBarItemLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIBarItemLenses.swift; sourceTree = "<group>"; };
+		CD5FBC762692F66C7D5AE96942A0E7F9 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = SPrelude/Classes/Optional.swift; sourceTree = "<group>"; };
+		D14377F0A83FB2B7F0B27FEF895686A3 /* Lens.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lens.swift; path = SPrelude/Classes/Lens.swift; sourceTree = "<group>"; };
+		D3C9FF4DC983991DDC121B0EDD385838 /* Pods-SPrelude-UIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPrelude-UIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D3DAF17BBA4AA3944D1AA391AADE451A /* UIButtonLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButtonLenses.swift; sourceTree = "<group>"; };
+		DD051429088B0965A8C5D3F177DED760 /* SPrelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPrelude.framework; path = SPrelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0BBD486F0D6B4EBD81703FE5C331F1 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = SPrelude/Classes/Operators.swift; sourceTree = "<group>"; };
+		DD52F0D1F54AB71840AED514180E20D7 /* Ordering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ordering.swift; path = SPrelude/Classes/Ordering.swift; sourceTree = "<group>"; };
+		DD7A1129DB14AD658B9C99096393E5F6 /* Pods-SPrelude-UIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPrelude-UIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		DDED026EA41BF810886D8274C30F23C7 /* UINavigationBarLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationBarLenses.swift; sourceTree = "<group>"; };
+		DFC525541C9F06F4BF2B11A68F20C950 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = SPrelude/Classes/Dictionary.swift; sourceTree = "<group>"; };
+		E0305D8CFAD684ADF790DD8C45EB4C0A /* Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Monoid.swift; path = SPrelude/Classes/Monoid.swift; sourceTree = "<group>"; };
+		E16936723ED7B51BEF31275EE025726B /* SPrelude-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPrelude-umbrella.h"; sourceTree = "<group>"; };
+		E310EDFBF8BD13C6E3C4C230428BB213 /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = SPrelude/Classes/Bool.swift; sourceTree = "<group>"; };
+		E3E9E73A33EB7904DF2050EFFE840400 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E676C55599031C86151565736B1BC0F4 /* SPrelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPrelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A8646F68B01624D8C8FF11B7B32E78 /* UITextViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextViewLenses.swift; sourceTree = "<group>"; };
+		E84B21B9F6BD616C0CE8BAEAF5505ED1 /* Unit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unit.swift; path = SPrelude/Classes/Unit.swift; sourceTree = "<group>"; };
+		EBFEBDA94AE7A01F4A9A5CB4D9E2EFF9 /* Pods-SPrelude-UIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPrelude-UIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		ED5887FCE9BD5D5D35D0270C0F1B4BBA /* Set.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Set.swift; path = SPrelude/Classes/Set.swift; sourceTree = "<group>"; };
+		EDA6DB90ABAEA162AF589A651E1A1257 /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Function.swift; path = SPrelude/Classes/Function.swift; sourceTree = "<group>"; };
+		EED80A8576C8002F601281772FFDCA5E /* Pods_SPrelude_UIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPrelude_UIKit_Tests.framework; path = "Pods-SPrelude-UIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F78639A2404ECD76CFEE7B53C822AF /* CGRectLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRectLenses.swift; sourceTree = "<group>"; };
+		F5049B9A729378E7EA50FE0167645CF9 /* UITabBarLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarLenses.swift; sourceTree = "<group>"; };
+		F73395F133EDBD5BFDF3D8E8F361514E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA9E94200EB96EC6E8EB1B8347648258 /* UIActivityIndicatorViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewLenses.swift; sourceTree = "<group>"; };
+		FBDAFF6213B8CEC1C317C4FAB3BA4836 /* UITraitCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITraitCollection.swift; path = "SPrelude-UIKit/Classes/UITraitCollection.swift"; sourceTree = "<group>"; };
+		FBF3E522B7EBD5F18299A295FA8171FC /* Tuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuple.swift; path = SPrelude/Classes/Tuple.swift; sourceTree = "<group>"; };
+		FE21C1DCE8E682FDD2EDCB91A1C03730 /* Pods-SPrelude-UIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPrelude-UIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE775F22628683CB5C5FD9E9E4551EF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FEA7245F43B938DCEA8925E4DE2CF918 /* CALayerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CALayerLenses.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F856900407F5FEE3423B2170BFD1049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E40D58F5FB228D14A1BA0506F695563 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691F3EFDF34785DD94E68C4C5E185E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8389F57D17DA83A6CC3C511CB7D5BB8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C4464D308DFF436F43171D01E0B2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69920683FF6E01C7AC483F21BD14A21E /* Foundation.framework in Frameworks */,
+				3DFF3D71C117B568190AD99E41FBF585 /* SPrelude.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF83A62E5E293E0550B04161027B6F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EF8CEE3F7022644AF8A936A72C337A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E42EFD1CB4DF871FE5FD6D28E44C1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5337A4ED6994FC7223FEEB84081F5FDD /* Info.plist */,
+				6CA3B17E0674B518C1C8B868EFADE06D /* SPrelude.modulemap */,
+				B06692125376C61FA7ADBFB56FEF2C25 /* SPrelude.xcconfig */,
+				560859C60BAC42976DF28215C551C1B1 /* SPrelude-dummy.m */,
+				2C8A6494344EEA0A91035D79AEAAFCD2 /* SPrelude-prefix.pch */,
+				E16936723ED7B51BEF31275EE025726B /* SPrelude-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPrelude";
+			sourceTree = "<group>";
+		};
+		22E8B32CCFB2833C8CD2F7602E762FCF /* SPrelude-UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8ACA88F06C4CC488CF9A08823C83BFEA /* LensHolder.swift */,
+				8887F8814ED1BAD9C0AF95CD4D8BD282 /* UIButton.swift */,
+				CC0D4C3E9DAD9069968B3939AD72B799 /* UIEdgeInsets.swift */,
+				6AF69500FB0D3ECFCF5C644F45CCC0DB /* UIImage.swift */,
+				FBDAFF6213B8CEC1C317C4FAB3BA4836 /* UITraitCollection.swift */,
+				9B9B4C89B985F6FBF5F7706A1E684D6C /* lenses */,
+				6B0EB4B92770D3E3B65B5C11D745BCC3 /* Pod */,
+				B8724BB9EC75DFB61D84F2B5BDADFA6F /* Support Files */,
+			);
+			name = "SPrelude-UIKit";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3055258BA045F2E8BAE59560E6A9CB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DBC21ED1CD25248413DFEC51AF13E1 /* Pods_SPrelude_UIKit_Example.framework */,
+				EED80A8576C8002F601281772FFDCA5E /* Pods_SPrelude_UIKit_Tests.framework */,
+				DD051429088B0965A8C5D3F177DED760 /* SPrelude.framework */,
+				909BC700707C927D4CBEF13C141922C8 /* SPrelude_UIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA15389678B851C99C129B9A920F3C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E676C55599031C86151565736B1BC0F4 /* SPrelude.framework */,
+				7ED84AFB22B5AF4756164A85265A62C0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A43B5DE9367BB264A0129E48D4D1C84 /* SPrelude */ = {
+			isa = PBXGroup;
+			children = (
+				967716F85591EAAF98EFD3A67A393AAF /* Array.swift */,
+				E310EDFBF8BD13C6E3C4C230428BB213 /* Bool.swift */,
+				AD428D031059E489E8C2BA3E58140463 /* Comparable.swift */,
+				CC26A5F06F83114FAD6B623B33173C39 /* Comparator.swift */,
+				DFC525541C9F06F4BF2B11A68F20C950 /* Dictionary.swift */,
+				A7759B04323674B3B2BACDEE4C1C3CFF /* Either.swift */,
+				8DC39DF1EEED1772D62EF4C80CCF616B /* Empty.swift */,
+				EDA6DB90ABAEA162AF589A651E1A1257 /* Function.swift */,
+				2FA184A01AB89F57222543EC2F74809A /* Info.plist */,
+				D14377F0A83FB2B7F0B27FEF895686A3 /* Lens.swift */,
+				4B2F2C03C072407147BF96A33D9B289D /* LensHolder.swift */,
+				E0305D8CFAD684ADF790DD8C45EB4C0A /* Monoid.swift */,
+				68B7238885769A9FE1461A2C79A15C9E /* NonEmpty.swift */,
+				5B30CE21EE5C10F8F2D3291B18505806 /* NumericType.swift */,
+				DD0BBD486F0D6B4EBD81703FE5C331F1 /* Operators.swift */,
+				CD5FBC762692F66C7D5AE96942A0E7F9 /* Optional.swift */,
+				DD52F0D1F54AB71840AED514180E20D7 /* Ordering.swift */,
+				42F2C63714B59AF3EB39E64D84B3D166 /* Semigroup.swift */,
+				ED5887FCE9BD5D5D35D0270C0F1B4BBA /* Set.swift */,
+				0D3C515500435F89BD9EE15AE5403C90 /* SomeError.swift */,
+				C82387ECA11079433E13A1224B106715 /* String.swift */,
+				FBF3E522B7EBD5F18299A295FA8171FC /* Tuple.swift */,
+				E84B21B9F6BD616C0CE8BAEAF5505ED1 /* Unit.swift */,
+				493FFD844EFED7BFC1F0E3384725C6C2 /* Unpack.swift */,
+				2F8E7D8BD7D5DDFB2EDC7E37C447C63A /* VectorType.swift */,
+				03E42EFD1CB4DF871FE5FD6D28E44C1A /* Support Files */,
+			);
+			name = SPrelude;
+			path = SPrelude;
+			sourceTree = "<group>";
+		};
+		6B0EB4B92770D3E3B65B5C11D745BCC3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FE775F22628683CB5C5FD9E9E4551EF9 /* LICENSE */,
+				7B8677F423C67A41F08547DC5BC54898 /* README.md */,
+				3273B83E8BBD3743C834934E966AADCE /* SPrelude-UIKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B18D303EC52175D7A55F4D088231E748 /* Development Pods */,
+				3BA15389678B851C99C129B9A920F3C5 /* Frameworks */,
+				F28D428F4931FE3CE8A4A0AEBF84C840 /* Pods */,
+				3055258BA045F2E8BAE59560E6A9CB66 /* Products */,
+				95D177B8A1EB81E5BD5755FF1E79FC5E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED84AFB22B5AF4756164A85265A62C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F73395F133EDBD5BFDF3D8E8F361514E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		95D177B8A1EB81E5BD5755FF1E79FC5E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F846844A8029BD25EDC510C60024A /* Pods-SPrelude-UIKit_Example */,
+				AC372010666F7346AE23C1EC0BAE2052 /* Pods-SPrelude-UIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B9B4C89B985F6FBF5F7706A1E684D6C /* lenses */ = {
+			isa = PBXGroup;
+			children = (
+				FEA7245F43B938DCEA8925E4DE2CF918 /* CALayerLenses.swift */,
+				6FC8DEE473109DE7F5A8B32541CEAC20 /* CGPointLenses.swift */,
+				F3F78639A2404ECD76CFEE7B53C822AF /* CGRectLenses.swift */,
+				9DA5DEA86AB208394E0E0C8A548BFE0E /* CGSizeLenses.swift */,
+				44BDA5227314305D901ADE35B2D4E04D /* NSMutableParagraphStyleLenses.swift */,
+				A15C0D162DB310CC99521151E3F2B338 /* NSObject.swift */,
+				7979875C59E6640E0C873260D6B54C5E /* NSTextContainerLenses.swift */,
+				058B612A1D22A8E3585AE4F4CF841F32 /* UIAccessibilityLenses.swift */,
+				FA9E94200EB96EC6E8EB1B8347648258 /* UIActivityIndicatorViewLenses.swift */,
+				988A6C4E616125183D8F3882CAD592F5 /* UIBarButtonItemLenses.swift */,
+				CCF08FCC2758346B5E1314D822AAE0DB /* UIBarItemLenses.swift */,
+				D3DAF17BBA4AA3944D1AA391AADE451A /* UIButtonLenses.swift */,
+				61FA7256A518B7615F67FC167BFEF7B2 /* UIControlLenses.swift */,
+				484620AC4B544F6C5FCCACE38E5383D8 /* UIEdgeInsetsLenses.swift */,
+				AF0BEF29A7B038EEAF59CC719C945B7C /* UIImageViewLenses.swift */,
+				73E8B44929B65B9033BCE094E0CDB335 /* UILabelLenses.swift */,
+				DDED026EA41BF810886D8274C30F23C7 /* UINavigationBarLenses.swift */,
+				6BDDF3F763C14FB814A2717E30FB0285 /* UINavigationControllerLenses.swift */,
+				368BF79174574F2A0C330AC922FA193B /* UINavigationItemLenses.swift */,
+				C3BBDB1519EBFE9C34128D9E91F7622B /* UIProgressViewLenses.swift */,
+				19A144961552B949E11F71DD445A6D25 /* UIScrollViewLenses.swift */,
+				6396CB16EE93CA993B232B73868921D0 /* UIStackViewLenses.swift */,
+				3650E60F391AF6BF426DA894E9C2E260 /* UITabBarItemLenses.swift */,
+				F5049B9A729378E7EA50FE0167645CF9 /* UITabBarLenses.swift */,
+				97DACAD938D29A9EA1A3B65AC5C75174 /* UITableViewCellLenses.swift */,
+				1FFD3726FA10011485D5E1FDF8C9B0BA /* UITableViewControllerLenses.swift */,
+				8DFE2385E73551B40B05B0A1D99781EF /* UITableViewLenses.swift */,
+				4DD1BB7D88FFEDBF87CDD8EAAE3458D4 /* UITextFieldLenses.swift */,
+				7A9BD1E7502CA9997660B262A5DF6EA4 /* UITextInputTraitsLenses.swift */,
+				E7A8646F68B01624D8C8FF11B7B32E78 /* UITextViewLenses.swift */,
+				88B2E5D2BA0916725B13718B4CD99196 /* UITraitEnvironment.swift */,
+				9D376EB2AB910575D848DE9C37067563 /* UIViewControllerLenses.swift */,
+				790BFBF3220AA6901B7BFC71AF4EEF52 /* UIViewLenses.swift */,
+				5534116E42AAA1E025C5640FD440ADBB /* UIWebViewLenses.swift */,
+				CA7895FA571A45E7B357E57F274631C7 /* WKWebViewLenses.swift */,
+			);
+			name = lenses;
+			path = "SPrelude-UIKit/Classes/lenses";
+			sourceTree = "<group>";
+		};
+		AC372010666F7346AE23C1EC0BAE2052 /* Pods-SPrelude-UIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C0A7CBF1C9315EB34B2E256B118BE14 /* Info.plist */,
+				73080BEEC814DED1396D8E4A822BB23F /* Pods-SPrelude-UIKit_Tests.modulemap */,
+				08ADFB17E384633AA3079C0529FD781B /* Pods-SPrelude-UIKit_Tests-acknowledgements.markdown */,
+				FE21C1DCE8E682FDD2EDCB91A1C03730 /* Pods-SPrelude-UIKit_Tests-acknowledgements.plist */,
+				DD7A1129DB14AD658B9C99096393E5F6 /* Pods-SPrelude-UIKit_Tests-dummy.m */,
+				02AE825913A3FA15039D10DA8ADAA173 /* Pods-SPrelude-UIKit_Tests-frameworks.sh */,
+				34C7FE8E194576652C5814A42F8215F0 /* Pods-SPrelude-UIKit_Tests-resources.sh */,
+				475BC49CF3E61F36BF70C6A65960A9F9 /* Pods-SPrelude-UIKit_Tests-umbrella.h */,
+				7FD91E4D4C8027268F3A230915F1FA77 /* Pods-SPrelude-UIKit_Tests.debug.xcconfig */,
+				D3C9FF4DC983991DDC121B0EDD385838 /* Pods-SPrelude-UIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SPrelude-UIKit_Tests";
+			path = "Target Support Files/Pods-SPrelude-UIKit_Tests";
+			sourceTree = "<group>";
+		};
+		B18D303EC52175D7A55F4D088231E748 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22E8B32CCFB2833C8CD2F7602E762FCF /* SPrelude-UIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B8724BB9EC75DFB61D84F2B5BDADFA6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3E9E73A33EB7904DF2050EFFE840400 /* Info.plist */,
+				91B3A460D9941BC6927DB0DC6F8F3BEE /* SPrelude-UIKit.modulemap */,
+				8506291C2EE98896CC04655232D1B855 /* SPrelude-UIKit.xcconfig */,
+				0E194B8BF3BB043CCF637ECA60AFC635 /* SPrelude-UIKit-dummy.m */,
+				1091BC986F6F0F087B03492422E2C90C /* SPrelude-UIKit-prefix.pch */,
+				4AAB3716CA9FA8BDE5F488E1572054E8 /* SPrelude-UIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SPrelude-UIKit";
+			sourceTree = "<group>";
+		};
+		EE7F846844A8029BD25EDC510C60024A /* Pods-SPrelude-UIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C9B34E226CB7539B643B601DDBD06 /* Info.plist */,
+				21E88E48265B8FDAB2372A9D7D35D039 /* Pods-SPrelude-UIKit_Example.modulemap */,
+				1DB6318D968AF90C4944D1B914F7AAB5 /* Pods-SPrelude-UIKit_Example-acknowledgements.markdown */,
+				1B8560510509C9470A92EC0489D7A696 /* Pods-SPrelude-UIKit_Example-acknowledgements.plist */,
+				5F1D5000BABD07F915F21BFB6403CD93 /* Pods-SPrelude-UIKit_Example-dummy.m */,
+				7955995CA3B31AA0282D00512D9AC385 /* Pods-SPrelude-UIKit_Example-frameworks.sh */,
+				7BE06FD780A3D447E635B31E6C118C7B /* Pods-SPrelude-UIKit_Example-resources.sh */,
+				EBFEBDA94AE7A01F4A9A5CB4D9E2EFF9 /* Pods-SPrelude-UIKit_Example-umbrella.h */,
+				9221F1868C0E10141C8349FBF0B3A63C /* Pods-SPrelude-UIKit_Example.debug.xcconfig */,
+				64E88A357674F0D2CFB8A7C45A42CB17 /* Pods-SPrelude-UIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SPrelude-UIKit_Example";
+			path = "Target Support Files/Pods-SPrelude-UIKit_Example";
+			sourceTree = "<group>";
+		};
+		F28D428F4931FE3CE8A4A0AEBF84C840 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A43B5DE9367BB264A0129E48D4D1C84 /* SPrelude */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		005ACEA002ED9A30108AB35EF6201AB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DD3AAE659F3214A8451316CE7B3DE2 /* Pods-SPrelude-UIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0247F1BFA088B34C74011E17601480E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A4CA0B43AD94C3F4BC34C8DCAD3093 /* SPrelude-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FBFBFAE0E95EE114AA28D6BDB8B0A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34EDD9ED3C882CA26C6E774DCB5214C /* Pods-SPrelude-UIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA1780AA12028A5499B2254E0FD4F6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C514EB0ADD823B02CB9BF87E185B48 /* SPrelude-UIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5447E6CE6F65FEAAE42987CBD4C5B654 /* Pods-SPrelude-UIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60914B07A3BC0B5D01971E4E2BC49C7D /* Build configuration list for PBXNativeTarget "Pods-SPrelude-UIKit_Tests" */;
+			buildPhases = (
+				FE6226CDE7DC000397BBA8F00C4BA025 /* Sources */,
+				691F3EFDF34785DD94E68C4C5E185E0A /* Frameworks */,
+				005ACEA002ED9A30108AB35EF6201AB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SPrelude-UIKit_Tests";
+			productName = "Pods-SPrelude-UIKit_Tests";
+			productReference = EED80A8576C8002F601281772FFDCA5E /* Pods_SPrelude_UIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D654B26BAA8C3C94AB2E4F8A8822E97 /* Pods-SPrelude-UIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB15A7B93A0493DF6E0C169066D128A4 /* Build configuration list for PBXNativeTarget "Pods-SPrelude-UIKit_Example" */;
+			buildPhases = (
+				40E726EF91031A8173D3C3EFC280DEC5 /* Sources */,
+				1F856900407F5FEE3423B2170BFD1049 /* Frameworks */,
+				07FBFBFAE0E95EE114AA28D6BDB8B0A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9BEA1C34C74F2AAC8640A060E897C2 /* PBXTargetDependency */,
+				76955C68029939AF02320B75AA4F012E /* PBXTargetDependency */,
+			);
+			name = "Pods-SPrelude-UIKit_Example";
+			productName = "Pods-SPrelude-UIKit_Example";
+			productReference = 17DBC21ED1CD25248413DFEC51AF13E1 /* Pods_SPrelude_UIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		989169DEB5A7F53667A9D6841C46544B /* SPrelude-UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3950B99A9A615875998885C8420E3B9C /* Build configuration list for PBXNativeTarget "SPrelude-UIKit" */;
+			buildPhases = (
+				A6136690107159D033C024F709D3C55B /* Sources */,
+				C5C4464D308DFF436F43171D01E0B2DE /* Frameworks */,
+				2CA1780AA12028A5499B2254E0FD4F6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3C4636AA1F95A6D0B633C38533D31C /* PBXTargetDependency */,
+			);
+			name = "SPrelude-UIKit";
+			productName = "SPrelude-UIKit";
+			productReference = 909BC700707C927D4CBEF13C141922C8 /* SPrelude_UIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98C29085221C0E4D6E1C6877FD1442B5 /* SPrelude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F20FE753D320D00159500254C898EA7 /* Build configuration list for PBXNativeTarget "SPrelude" */;
+			buildPhases = (
+				5750737C2B42170AFC63DE32CD9AC5F6 /* Sources */,
+				CF83A62E5E293E0550B04161027B6F5E /* Frameworks */,
+				0247F1BFA088B34C74011E17601480E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPrelude;
+			productName = SPrelude;
+			productReference = DD051429088B0965A8C5D3F177DED760 /* SPrelude.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3055258BA045F2E8BAE59560E6A9CB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D654B26BAA8C3C94AB2E4F8A8822E97 /* Pods-SPrelude-UIKit_Example */,
+				5447E6CE6F65FEAAE42987CBD4C5B654 /* Pods-SPrelude-UIKit_Tests */,
+				98C29085221C0E4D6E1C6877FD1442B5 /* SPrelude */,
+				989169DEB5A7F53667A9D6841C46544B /* SPrelude-UIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E726EF91031A8173D3C3EFC280DEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC04C030976BB4D834D4812B70A6AAC /* Pods-SPrelude-UIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5750737C2B42170AFC63DE32CD9AC5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B34D0C19961AC20D2DA038B580D94B /* Array.swift in Sources */,
+				37FAB6D7F941366AD7EF66EAA236F0D1 /* Bool.swift in Sources */,
+				4E88F78B8E895468E489588A0DC97FEB /* Comparable.swift in Sources */,
+				884F2DD549949A5C36D5100CA1915C22 /* Comparator.swift in Sources */,
+				08E875C03CEBE5FA3BF719E31D0BC043 /* Dictionary.swift in Sources */,
+				41749B5B310A1B801CC917FBEB30B453 /* Either.swift in Sources */,
+				7D74F459536F4865CF4C096C0185EC59 /* Empty.swift in Sources */,
+				DC6D9DE5683BA9521E1D4CEA26E44BCD /* Function.swift in Sources */,
+				1F34DCE6FD4C81F4282CB8AB1DA3760E /* Info.plist in Sources */,
+				22A3524C7D9E7D7A3DF246E61BE058F5 /* Lens.swift in Sources */,
+				7C7B127EC980A28471D40F593ECABDF4 /* LensHolder.swift in Sources */,
+				268ED43BB84EA3B0C43A0C37BDEEF5C4 /* Monoid.swift in Sources */,
+				6E3059F06C32DA6B58205A1589B7001E /* NonEmpty.swift in Sources */,
+				F99230A37C25126BA0335B00650E2481 /* NumericType.swift in Sources */,
+				1EDBE6363C8D3B422014FFCFEB1BB2C1 /* Operators.swift in Sources */,
+				D0562634823CF389AF82398F7AF4B1B9 /* Optional.swift in Sources */,
+				E3D32B2F216F06619A39A27BF526ADD6 /* Ordering.swift in Sources */,
+				6AE88D9C49C2BE0A059E983791B850CB /* Semigroup.swift in Sources */,
+				810B71ADBCD68BE0C603DCD7ADD13C6C /* Set.swift in Sources */,
+				555D6EC751390099BABD0FD54CA4D394 /* SomeError.swift in Sources */,
+				D0DC0970B0BB5DAADDA3D2FE3AEFCB32 /* SPrelude-dummy.m in Sources */,
+				25859000C9B2A613B0C4917CA58BFEE6 /* String.swift in Sources */,
+				C63428EA5BABD7A30047AACE3168375C /* Tuple.swift in Sources */,
+				78319C75D0BE53989913BC985B125E7C /* Unit.swift in Sources */,
+				129668030C915D51A1B61B1CB2138ECD /* Unpack.swift in Sources */,
+				D196991D2CB96F9F390337D304FFC3FB /* VectorType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6136690107159D033C024F709D3C55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0F11E903F532F13E8F2EBF9ED2EF45 /* CALayerLenses.swift in Sources */,
+				D7CB1A5D73AFB28BD07FA3238AEE4BE8 /* CGPointLenses.swift in Sources */,
+				244190014486AA2144EEA6B980844B1D /* CGRectLenses.swift in Sources */,
+				A26655B06AADAA038BA6CD99BC3745A5 /* CGSizeLenses.swift in Sources */,
+				24F0BF734DDD0DA25555415FDA60E3C3 /* LensHolder.swift in Sources */,
+				98B4C72B7BDCE18DD7C138DFF864E2B1 /* NSMutableParagraphStyleLenses.swift in Sources */,
+				E56CEA6D66E866C37880C92D2800BD35 /* NSObject.swift in Sources */,
+				904843FD1C34B57F9C47BD571FABEC5F /* NSTextContainerLenses.swift in Sources */,
+				C387D36F5607752E3996F1E949E3CD77 /* SPrelude-UIKit-dummy.m in Sources */,
+				9EFCF12170491EEE76D8C3289D57C159 /* UIAccessibilityLenses.swift in Sources */,
+				36739B567821C70D80222E721926D122 /* UIActivityIndicatorViewLenses.swift in Sources */,
+				C8E998ADF9551D51C69F5AF5CC79A591 /* UIBarButtonItemLenses.swift in Sources */,
+				8FB6F2B0C4FFADB001F1233D9DE493AA /* UIBarItemLenses.swift in Sources */,
+				694280C06D7C697470EA31D7A187E21A /* UIButton.swift in Sources */,
+				B662A53D85D6DAB4BD64ACFBEBCFF760 /* UIButtonLenses.swift in Sources */,
+				63A098C53EA9E8B0F2B879435C4ABF8E /* UIControlLenses.swift in Sources */,
+				CC52A9D3FDE49528A693EB9A878AD42C /* UIEdgeInsets.swift in Sources */,
+				DD23398951A5F581FCD7EC4E2ACE8139 /* UIEdgeInsetsLenses.swift in Sources */,
+				9273470B403219F4D2226F51674B22AB /* UIImage.swift in Sources */,
+				A2D9DC0529ED78468AFB2CFC6D221F72 /* UIImageViewLenses.swift in Sources */,
+				841EFB4CE7363BFB33AF6C4C5531BB2F /* UILabelLenses.swift in Sources */,
+				6EFD5C86BD0EDE80F64A5AC6EB1899A4 /* UINavigationBarLenses.swift in Sources */,
+				307FC1FB4356F02242681BACFF05C039 /* UINavigationControllerLenses.swift in Sources */,
+				A1F9F46E376305E488DDA214313EDE47 /* UINavigationItemLenses.swift in Sources */,
+				79B876F30C56AD89D9BDE6DC3E5ECEE0 /* UIProgressViewLenses.swift in Sources */,
+				B34E0C69AD49C520871A994663820FFD /* UIScrollViewLenses.swift in Sources */,
+				33DBB4EAA4C702A857DBE4B8AC5DF2C0 /* UIStackViewLenses.swift in Sources */,
+				06FB7022FED179F756E7FFF3FDACCE11 /* UITabBarItemLenses.swift in Sources */,
+				3B22D4D93B33785D59098E0F962A8E9F /* UITabBarLenses.swift in Sources */,
+				68F33D043653F3162C52F7388F1DB408 /* UITableViewCellLenses.swift in Sources */,
+				5AEAEB0144DE9979F96F2D79AB18DB9C /* UITableViewControllerLenses.swift in Sources */,
+				9238B5466A09C173F4E979437E61DBE3 /* UITableViewLenses.swift in Sources */,
+				43A95967A48B090E419B762ADE0E32C9 /* UITextFieldLenses.swift in Sources */,
+				283F130658BA826686E931FFA2B981B8 /* UITextInputTraitsLenses.swift in Sources */,
+				91F47489A55C1E321983593472DC8800 /* UITextViewLenses.swift in Sources */,
+				BEDEF1CE0613BF6A8FD651056D81BC93 /* UITraitCollection.swift in Sources */,
+				121E0EFA458219F00B4ED764BAB0F201 /* UITraitEnvironment.swift in Sources */,
+				DDCD29A59CE0E481C2FA72FDF2F215A9 /* UIViewControllerLenses.swift in Sources */,
+				787FD4473457D5D0269B8D1C0CA9B128 /* UIViewLenses.swift in Sources */,
+				130F66739552EC752FA1103A81E0EDA8 /* UIWebViewLenses.swift in Sources */,
+				8051943AB6766C91B0ECD95F8E0ACBAA /* WKWebViewLenses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6226CDE7DC000397BBA8F00C4BA025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBABD8491AB60BC3FB610E552BEE6C6 /* Pods-SPrelude-UIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3C4636AA1F95A6D0B633C38533D31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPrelude;
+			target = 98C29085221C0E4D6E1C6877FD1442B5 /* SPrelude */;
+			targetProxy = 2DFADA534090AE29F637906F1A9ABDC2 /* PBXContainerItemProxy */;
+		};
+		5A9BEA1C34C74F2AAC8640A060E897C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPrelude;
+			target = 98C29085221C0E4D6E1C6877FD1442B5 /* SPrelude */;
+			targetProxy = D8F3C176A2899F54E8EE8BCB72D8ED37 /* PBXContainerItemProxy */;
+		};
+		76955C68029939AF02320B75AA4F012E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SPrelude-UIKit";
+			target = 989169DEB5A7F53667A9D6841C46544B /* SPrelude-UIKit */;
+			targetProxy = 7CD3B709820839B7B26211C6D4A82933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3439D244D6EE7870A78B9397B35BDEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06692125376C61FA7ADBFB56FEF2C25 /* SPrelude.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPrelude/SPrelude-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPrelude/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPrelude/SPrelude.modulemap";
+				PRODUCT_MODULE_NAME = SPrelude;
+				PRODUCT_NAME = SPrelude;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		365FA81053D10E89C5DDA25D71524F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E88A357674F0D2CFB8A7C45A42CB17 /* Pods-SPrelude-UIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPrelude-UIKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPrelude-UIKit_Example/Pods-SPrelude-UIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F79A1CB8BAFC61D07F763C97704A221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06692125376C61FA7ADBFB56FEF2C25 /* SPrelude.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPrelude/SPrelude-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPrelude/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPrelude/SPrelude.modulemap";
+				PRODUCT_MODULE_NAME = SPrelude;
+				PRODUCT_NAME = SPrelude;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7762AF30D9309301E22C80604AAD5C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD91E4D4C8027268F3A230915F1FA77 /* Pods-SPrelude-UIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPrelude-UIKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPrelude-UIKit_Tests/Pods-SPrelude-UIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A78CB10FA2E814BECDBD61F6BB28CC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C9FF4DC983991DDC121B0EDD385838 /* Pods-SPrelude-UIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPrelude-UIKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPrelude-UIKit_Tests/Pods-SPrelude-UIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C71D64A3E504D92DC8FD7A75866CE068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8506291C2EE98896CC04655232D1B855 /* SPrelude-UIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPrelude-UIKit/SPrelude-UIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPrelude-UIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPrelude-UIKit/SPrelude-UIKit.modulemap";
+				PRODUCT_MODULE_NAME = SPrelude_UIKit;
+				PRODUCT_NAME = SPrelude_UIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D80131920EEBAC0055D91F9636497B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9221F1868C0E10141C8349FBF0B3A63C /* Pods-SPrelude-UIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPrelude-UIKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPrelude-UIKit_Example/Pods-SPrelude-UIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB98CECB56F2B398512D484821A4BA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8506291C2EE98896CC04655232D1B855 /* SPrelude-UIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPrelude-UIKit/SPrelude-UIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPrelude-UIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPrelude-UIKit/SPrelude-UIKit.modulemap";
+				PRODUCT_MODULE_NAME = SPrelude_UIKit;
+				PRODUCT_NAME = SPrelude_UIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F20FE753D320D00159500254C898EA7 /* Build configuration list for PBXNativeTarget "SPrelude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3439D244D6EE7870A78B9397B35BDEF0 /* Debug */,
+				4F79A1CB8BAFC61D07F763C97704A221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3950B99A9A615875998885C8420E3B9C /* Build configuration list for PBXNativeTarget "SPrelude-UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB98CECB56F2B398512D484821A4BA6E /* Debug */,
+				C71D64A3E504D92DC8FD7A75866CE068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60914B07A3BC0B5D01971E4E2BC49C7D /* Build configuration list for PBXNativeTarget "Pods-SPrelude-UIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7762AF30D9309301E22C80604AAD5C1B /* Debug */,
+				A78CB10FA2E814BECDBD61F6BB28CC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB15A7B93A0493DF6E0C169066D128A4 /* Build configuration list for PBXNativeTarget "Pods-SPrelude-UIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80131920EEBAC0055D91F9636497B37 /* Debug */,
+				365FA81053D10E89C5DDA25D71524F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

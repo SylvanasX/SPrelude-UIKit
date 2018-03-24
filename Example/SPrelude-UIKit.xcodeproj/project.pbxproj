@@ -12,7 +12,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8C24CAB29A29F67C3E767382 /* Pods_SPrelude_UIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0718582D5E749A2647D2DF93 /* Pods_SPrelude_UIKit_Example.framework */; };
 		C66DCA7310FB40F5699D5A13 /* Pods_SPrelude_UIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061AD80846DDB24F4D910EF /* Pods_SPrelude_UIKit_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -29,10 +28,10 @@
 
 /* Begin PBXFileReference section */
 		0718582D5E749A2647D2DF93 /* Pods_SPrelude_UIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPrelude_UIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FB70407B907AC527775ED1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0FB70407B907AC527775ED1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		11CDEF656DF7305735535771 /* Pods-SPrelude-UIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPrelude-UIKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPrelude-UIKit_Tests/Pods-SPrelude-UIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3061AD80846DDB24F4D910EF /* Pods_SPrelude_UIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPrelude_UIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41DFA110E05DAD81473F743A /* SPrelude-UIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "SPrelude-UIKit.podspec"; path = "../SPrelude-UIKit.podspec"; sourceTree = "<group>"; };
+		41DFA110E05DAD81473F743A /* SPrelude-UIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SPrelude-UIKit.podspec"; path = "../SPrelude-UIKit.podspec"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SPrelude-UIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPrelude-UIKit_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +41,10 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SPrelude-UIKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPrelude-UIKit_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		753FAF31F5B75547E8F17A09 /* Pods-SPrelude-UIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPrelude-UIKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPrelude-UIKit_Example/Pods-SPrelude-UIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CAC93C9927D089DBE0CDAD61 /* Pods-SPrelude-UIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPrelude-UIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPrelude-UIKit_Example/Pods-SPrelude-UIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CF4398742CB84DDE27D0B653 /* Pods-SPrelude-UIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPrelude-UIKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPrelude-UIKit_Tests/Pods-SPrelude-UIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D608ABA8E9F500FFA21A4FF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D608ABA8E9F500FFA21A4FF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +124,6 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -268,10 +265,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SPrelude-UIKit_Example/Pods-SPrelude-UIKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SPrelude/SPrelude.framework",
 				"${BUILT_PRODUCTS_DIR}/SPrelude-UIKit/SPrelude_UIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPrelude.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPrelude_UIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
