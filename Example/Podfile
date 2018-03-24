@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPrelude-UIKit_Example' do
+  pod 'SPrelude-UIKit', :path => '../'
+
+  target 'SPrelude-UIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
